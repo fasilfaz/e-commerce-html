@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover a wide range of products at our e-commerce store. Shop now for exclusive deals and fast shipping!">
+    <title>My E-commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fdf700cf34.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html" title="Home">
+                        <img src="logo.png" alt="MyStore Logo">
+                    </a>
+                </div>
+
+                <!-- Navigation Menu -->
+                <nav class="navbar" role="navigation" aria-label="Main Navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Search and Icons -->
+                <div class="header-icons">
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="Search products..."
+                            aria-label="Search products">
+                        <button id="search-button" aria-label="Search button"><i
+                                class="fa-solid fa-magnifying-glass"></i></i></button>
+                    </div>
+
+                    <!-- Cart Icon -->
+                    <div class="cart-icon" aria-label="Shopping Cart">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span id="cart-count">0</span>
+                        </a>
+                    </div>
+
+                    <!-- User Account Icon -->
+                    <div class="user-icon" aria-label="User Account">
+                        <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Toggle Button -->
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Amazing Products at Unbeatable Prices!</h1>
+            <p>Explore our exclusive collections and find the perfect items for you.</p>
+            <a href="shop.html" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be dynamically loaded here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Showcase -->
+    <section class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid" id="categories">
+                <!-- Categories will be dynamically loaded here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Banner -->
+    <section class="promo-banner">
+        <div class="promo-content">
+            <h2>Summer Sale - Up to 50% Off!</h2>
+            <a href="sale.html" class="cta-button">Shop Sale</a>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-carousel">
+                <!-- Testimonials will be dynamically loaded here using JavaScript -->
+                <div class="testimonial-item">
+                    <p>"Great quality products and fast shipping. Highly recommend!"</p>
+                    <h4>- Jane Doe</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Amazing customer service and great deals!"</p>
+                    <h4>- John Smith</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest updates and promotions.</p>
+            <form id="newsletter-form">
+                <input type="email" placeholder="Enter your email" aria-label="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
+                <a href="terms.html">Terms & Conditions</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="social-media">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="contact-info">
+                <p>Email: info@mystore.com</p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 1234 Market St, City, Country</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
